@@ -1,22 +1,15 @@
-function isUndef(v) {
+export function isUndef(v) {
     return v === undefined || v === null
 }
 
-function isDef(v) {
+export function isDef(v) {
     return v !== undefined && v !== null
 }
 
-function isObject(obj) {
+export function isObject(obj) {
     return obj !== null && typeof obj === "object"
 }
 
-function isPlainObject(obj) {
+export function isPlainObject(obj) {
     return Object.prototype.toString.call(obj) === "[object, Object]"
-}
-
-export default {
-    isUndef,
-    isDef,
-    isObject,
-    isPlainObject
 }

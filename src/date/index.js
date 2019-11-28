@@ -17,7 +17,7 @@ function formatNumber(n) {
  * @param {*} shortType
  * @returns
  */
-function formatTime(v, shortType = true, Joiner = "-") {
+export function formatTime(v, shortType = true, Joiner = "-") {
     v = v * 1000
     const date = new Date(parseInt(v))
     const year = date.getFullYear()
@@ -36,8 +36,4 @@ function formatTime(v, shortType = true, Joiner = "-") {
     } else {
         return `${t1} ${t2}`
     }
-}
-
-export default {
-    formatTime
 }
