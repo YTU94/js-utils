@@ -1,23 +1,23 @@
 {
-  "name": "y-js-utils",
-  "version": "1.0.0-beta4",
-  "description": "js utils",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YTU94/js-utils.git"
-  },
-  "keywords": [
-    "js",
-    "utils"
-  ],
-  "author": "ytu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YTU94/js-utils/issues"
-  },
-  "homepage": "https://github.com/YTU94/js-utils#readme"
+    "name": "y-js-utils",
+    "version": "1.0.0-beta5",
+    "description": "js utils",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YTU94/js-utils.git"
+    },
+    "keywords": [
+        "js",
+        "utils"
+    ],
+    "author": "ytu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/YTU94/js-utils/issues"
+    },
+    "homepage": "https://github.com/YTU94/js-utils#readme"
 }
