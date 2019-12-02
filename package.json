@@ -1,6 +1,6 @@
 {
     "name": "y-js-utils",
-    "version": "1.0.0-beta9",
+    "version": "1.0.0-beta10",
     "description": "js utils",
     "main": "dist/index.js",
     "scripts": {
